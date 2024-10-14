@@ -3,7 +3,7 @@ const mapboxToken = 'pk.eyJ1IjoiZnJhbmNvaXNidXJkeSIsImEiOiJjbDkzcWI0aTkxcGRtM25t
 const apiAdresseUrl = 'https://api-adresse.data.gouv.fr/search/?limit=6&type=municipality'
 
 const dataFiles = {
-  zoneMapping: 'data/Zonage_abc_communes_2022-index.json',
+  zoneMapping: 'data/Zonage_abc_communes_2024-index.json',
   original: 'data/communes-simplified-geojson.json',
   dest: 'data/communes-with-zones.geojson',
   destLight: 'data/communes-with-zones-light.geojson',
